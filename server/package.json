@@ -1,0 +1,16 @@
+{
+  "name": "@flix/server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seed.js --reset",
+    "test": "node src/smoke.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14"
+  }
+}
